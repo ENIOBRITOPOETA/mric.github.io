@@ -28,6 +28,12 @@
   </style>
 </head>
 <body>
+
+  <!-- IMAGEM DE CAPA -->
+  <div style="text-align: center; margin: 2rem 0;">
+    <img src="IMAGEM MRIC.jpg" alt="Movimento de Resgate da Identidade Cultural" style="width: 100%; max-width: 800px; border-radius: 12px;">
+  </div>
+
   <header>
     <h1>📚 Sociedade MRIC</h1>
     <p>Movimento de Resgate da Identidade Cultural</p>
@@ -37,6 +43,7 @@
     <a href="#historia">História</a>
     <a href="#conquistas">Conquistas</a>
     <a href="#arte">Arte & Política</a>
+    <a href="#enviar-video">Enviar Vídeo</a>
     <a href="#filie">Filie-se</a>
     <a href="#contato">Contato</a>
   </nav>
@@ -79,6 +86,30 @@
       <p><em>Substitua "YOUTUBE_ID_AQUI" pelo ID do seu vídeo no YouTube.</em></p>
     </section>
 
+    <section id="enviar-video" class="secao">
+      <h2>Envie seu vídeo de participação</h2>
+      <p>Quer compartilhar sua história com a MRIC? Envie o link do seu vídeo no YouTube ou Vimeo.</p>
+      <form action="https://formsubmit.co/enio.brito@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="Vídeo enviado para MRIC">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://eniobritopoeta.github.io/mric.github.io">
+
+        <label>Nome completo</label>
+        <input type="text" name="nome" placeholder="Seu nome" required>
+
+        <label>E-mail</label>
+        <input type="email" name="email" placeholder="seu@email.com" required>
+
+        <label>Link do vídeo (YouTube/Vimeo)</label>
+        <input type="url" name="video_url" placeholder="https://www.youtube.com/watch?v=..." required>
+
+        <label>Mensagem (opcional)</label>
+        <textarea name="mensagem" rows="3" placeholder="Fale sobre sua participação"></textarea>
+
+        <button type="submit">Enviar vídeo</button>
+      </form>
+    </section>
+
     <section id="filie" class="secao">
       <h2>Filie-se à MRIC</h2>
       <p>Junte-se ao movimento. Torne-se um agente de transformação.</p>
@@ -86,7 +117,7 @@
       <form action="https://formsubmit.co/enio.brito@gmail.com" method="POST">
         <input type="hidden" name="_subject" value="Nova filiação à MRIC">
         <input type="hidden" name="_captcha" value="false">
-        <input type="hidden" name="_next" value="https://mric.github.io/obrigado.html">
+        <input type="hidden" name="_next" value="https://eniobritopoeta.github.io/mric.github.io">
 
         <label>Nome completo</label>
         <input type="text" name="nome" placeholder="Seu nome" required>
