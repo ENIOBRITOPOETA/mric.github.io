@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sociedade MRIC - Resgate da Identidade Cultural</title>
+  <meta name="description" content="MRIC: 40 anos de luta por justiça, moradia e emancipação popular em Goiás.">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+    body { background: #f8f9fa; color: #333; line-height: 1.7; }
+    header { background: #1d3a21; color: white; text-align: center; padding: 2.5rem 1rem; }
+    header h1 { font-size: 2.5rem; margin-bottom: 0.3rem; }
+    nav { background: #2c5530; padding: 1rem 0; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .container { max-width: 900px; margin: 2rem auto; padding: 0 1.5rem; }
+    .secao { background: white; padding: 2rem; margin-bottom: 2.5rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); }
+    h2 { color: #2c5530; border-bottom: 3px solid #e63946; padding-bottom: 0.5rem; }
+    ul, ol { margin: 1rem 0 1rem 2rem; line-height: 1.7; }
+    .video-container { margin: 1.5rem 0; text-align: center; }
+    .video-container iframe { border: none; border-radius: 10px; width: 100%; max-width: 560px; height: 315px; }
+    form { display: grid; gap: 15px; }
+    input, textarea, button { padding: 10px; border: 2px solid #2c5530; border-radius: 8px; font-size: 1rem; }
+    button { background: #e63946; color: white; font-weight: bold; cursor: pointer; }
+    button:hover { background: #c12a38; }
+    footer { text-align: center; padding: 2.5rem; background: #1d3a21; color: white; font-size: 0.9rem; }
+    footer a { color: #ffebee; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>📚 Sociedade MRIC</h1>
+    <p>Movimento de Resgate da Identidade Cultural</p>
+  </header>
+
+  <nav>
+    <a href="#historia">História</a>
+    <a href="#conquistas">Conquistas</a>
+    <a href="#arte">Arte & Política</a>
+    <a href="#filie">Filie-se</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <div class="container">
+    <section id="historia" class="secao">
+      <h2>Quem Somos</h2>
+      <p>Fundada em <strong>1978</strong>, na Vila Coronel Cosme, a <strong>Sociedade do Movimento de Resgate da Identidade Cultural (MRIC)</strong> nasceu da luta por moradia, educação popular e resistência cultural.</p>
+      <p>Em <strong>1984</strong>, foi legalizada como entidade de Utilidade Pública (Lei 9.917/1985). Desde então, atua em Goiás com projetos de habitação, cooperativismo, hortas comunitárias e formação política.</p>
+      <p>Liderada por <strong>Enio Brito de Sá</strong>, a MRIC é um exemplo de resistência pacífica, arte engajada e transformação comunitária.</p>
+    </section>
+
+    <section id="conquistas" class="secao">
+      <h2>Conquistas</h2>
+      <ul>
+        <li><strong>5.000+ famílias</strong> assistidas na conquista de moradia</li>
+        <li><strong>45 Manifestos Culturais</strong> realizados em praças e ruas</li>
+        <li><strong>20 Congressos de Entidades Culturais</strong></li>
+        <li>CPC da Vila Bandeirantes: centro de cultura e resistência</li>
+        <li>Gravação do disco <em>O Povo Canta</em> e publicação de livros coletivos</li>
+        <li>Programa de rádio <em>Liberdade de Expressão</em> na Rádio Universitária desde 1995</li>
+      </ul>
+    </section>
+
+    <section id="arte" class="secao">
+      <h2>Arte e Política</h2>
+      <p>A arte é nossa arma. O grupo <strong>Cordel da Liberdade</strong> usou teatro, música e poesia para educar politicamente o povo.</p>
+      <p>Como diz Enio Brito:  
+        <em>"A poesia não salva o mundo, mas salva quem vive nele."</em>
+      </p>
+
+      <div class="video-container">
+        <iframe 
+          src="https://www.youtube.com/embed/YOUTUBE_ID_AQUI" 
+          title="Vídeo da MRIC" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p><em>Substitua "YOUTUBE_ID_AQUI" pelo ID do seu vídeo no YouTube.</em></p>
+    </section>
+
+    <section id="filie" class="secao">
+      <h2>Filie-se à MRIC</h2>
+      <p>Junte-se ao movimento. Torne-se um agente de transformação.</p>
+      
+      <form action="https://formsubmit.co/enio.brito@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="Nova filiação à MRIC">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://mric.github.io/obrigado.html">
+
+        <label>Nome completo</label>
+        <input type="text" name="nome" placeholder="Seu nome" required>
+
+        <label>E-mail</label>
+        <input type="email" name="email" placeholder="seu@email.com" required>
+
+        <label>WhatsApp</label>
+        <input type="text" name="whatsapp" placeholder="62 98240-5324" required>
+
+        <label>Cidade / Estado</label>
+        <input type="text" name="cidade" placeholder="Goiânia - GO" required>
+
+        <label>Como deseja atuar?</label>
+        <div style="background:#f1f1f1; padding:10px; border-radius:8px;">
+          <label><input type="checkbox" name="interesse[]" value="Arte e Cultura"> Arte e Cultura</label><br>
+          <label><input type="checkbox" name="interesse[]" value="Educação Popular"> Educação Popular</label><br>
+          <label><input type="checkbox" name="interesse[]" value="Horta Comunitária"> Horta Comunitária</label><br>
+          <label><input type="checkbox" name="interesse[]" value="Formação Política"> Formação Política</label><br>
+          <label><input type="checkbox" name="interesse[]" value="Voluntariado"> Voluntariado</label><br>
+          <label><input type="checkbox" name="interesse[]" value="Doações"> Doações e Apoio</label>
+        </div>
+
+        <label>Mensagem (opcional)</label>
+        <textarea name="mensagem" rows="3" placeholder="Por que você quer se juntar?"></textarea>
+
+        <button type="submit">Enviar Ficha de Filiação</button>
+      </form>
+    </section>
+
+    <section id="contato" class="secao">
+      <h2>Contato e Apoio</h2>
+      <p><strong>Coordenador:</strong> Enio Brito de Sá</p>
+      <p><strong>Endereço:</strong> BR 153, Trevo do Palmito, 156 – Vila Bandeirantes, Goiânia – GO</p>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/5562982405324" target="_blank">+55 62 98240-5324</a></p>
+      <p><strong>E-mail:</strong> <a href="mailto:enio.brito@gmail.com">enio.brito@gmail.com</a></p>
+      <p><strong>Newsletter:</strong> <a href="https://buttondown.com/enio" target="_blank">Receba nossos boletins</a></p>
+      <p><strong>Agente de IA:</strong> <a href="https://poe.com/Agente-EnioBrito2026" target="_blank">Converse com o Agente da MRIC</a></p>
+      <p>Estamos abertos a parcerias nacionais e internacionais. Sua colaboração pode mudar vidas.</p>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 Sociedade MRIC – Todos os direitos reservados.<br>
+    Site criado com justiça, fé e revolução do amor.
+  </footer>
+</body>
+</html>
