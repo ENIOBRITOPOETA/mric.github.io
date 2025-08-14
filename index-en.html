@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MRIC - Movement for the Rescue of Cultural Identity</title>
+  <meta name="description" content="MRIC: 40 years of struggle for justice, housing, and popular emancipation in Goiás, Brazil.">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+    body { background: #f8f9fa; color: #333; line-height: 1.7; }
+    header { background: #1d3a21; color: white; text-align: center; padding: 2.5rem 1rem; }
+    header h1 { font-size: 2.5rem; margin-bottom: 0.3rem; }
+    nav { background: #2c5530; padding: 1rem 0; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .container { max-width: 900px; margin: 2rem auto; padding: 0 1.5rem; }
+    .secao { background: white; padding: 2rem; margin-bottom: 2.5rem; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); }
+    h2 { color: #2c5530; border-bottom: 3px solid #e63946; padding-bottom: 0.5rem; }
+    ul, ol { margin: 1rem 0 1rem 2rem; line-height: 1.7; }
+    .video-container { margin: 1.5rem 0; text-align: center; }
+    .video-container iframe { border: none; border-radius: 10px; width: 100%; max-width: 560px; height: 315px; }
+    form { display: grid; gap: 15px; }
+    input, textarea, button { padding: 10px; border: 2px solid #2c5530; border-radius: 8px; font-size: 1rem; }
+    button { background: #e63946; color: white; font-weight: bold; cursor: pointer; }
+    button:hover { background: #c12a38; }
+    footer { text-align: center; padding: 2.5rem; background: #1d3a21; color: white; font-size: 0.9rem; }
+    footer a { color: #ffebee; text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <!-- CAPA EM INGLÊS -->
+  <div style="text-align: center; margin: 2rem 0;">
+    <img src="capa-mric.jpg" alt="Movement for the Rescue of Cultural Identity" style="width: 100%; max-width: 800px; border-radius: 12px;">
+  </div>
+
+  <header>
+    <h1>📚 MRIC</h1>
+    <p>Movement for the Rescue of Cultural Identity</p>
+  </header>
+
+  <nav>
+    <a href="#history">History</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#art-politics">Art & Politics</a>
+    <a href="#send-video">Send Video</a>
+    <a href="#join">Join Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+    <section id="history" class="secao">
+      <h2>Who We Are</h2>
+      <p>Founded in <strong>1978</strong>, in Vila Coronel Cosme, Goiânia, the <strong>Movement for the Rescue of Cultural Identity (MRIC)</strong> emerged from the struggle for housing, popular education, and cultural resistance.</p>
+      <p>In <strong>1984</strong>, it was recognized as a Public Utility Entity (Law 9.917/1985). Since then, it has worked in Goiás on housing projects, cooperatives, community gardens, and political formation.</p>
+      <p>Guided by <strong>Enio Brito de Sá</strong>, MRIC is an example of peaceful resistance, engaged art, and community transformation.</p>
+    </section>
+
+    <section id="achievements" class="secao">
+      <h2>Achievements</h2>
+      <ul>
+        <li><strong>5,000+ families</strong> assisted in securing housing</li>
+        <li><strong>45 Cultural Manifestos</strong> held in squares and streets</li>
+        <li><strong>20 Congresses of Cultural Entities</strong></li>
+        <li>CPC of Vila Bandeirantes: a center of culture and resistance</li>
+        <li>Recording of the album <em>The People Sing</em> and collective books</li>
+        <li>Radio program <em>Freedom of Expression</em> on Rádio Universitária since 1995</li>
+      </ul>
+    </section>
+
+    <section id="art-politics" class="secao">
+      <h2>Art and Politics</h2>
+      <p>Art is our weapon. The group <strong>Cordel da Liberdade</strong> used theater, music, and poetry to politically educate the people.</p>
+      <p>As Enio Brito says:  
+        <em>"Poetry doesn't save the world, but it saves those who live in it."</em>
+      </p>
+
+      <div class="video-container">
+        <iframe 
+          src="https://www.youtube.com/embed/lmip1TrhEiU"
+          title="MRIC Video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+    <section id="send-video" class="secao">
+      <h2>Send Your Video</h2>
+      <p>Want to share your story with MRIC? Send the link to your video on YouTube or Vimeo.</p>
+      <form action="https://formsubmit.co/enio.brito@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="Video sent to MRIC">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://eniobritopoeta.github.io/mric.github.io">
+
+        <label>Full name</label>
+        <input type="text" name="nome" placeholder="Your name" required>
+
+        <label>Email</label>
+        <input type="email" name="email" placeholder="your@email.com" required>
+
+        <label>Video link (YouTube/Vimeo)</label>
+        <input type="url" name="video_url" placeholder="https://www.youtube.com/watch?v=..." required>
+
+        <label>Message (optional)</label>
+        <textarea name="mensagem" rows="3" placeholder="Tell us about your participation"></textarea>
+
+        <button type="submit">Send Video</button>
+      </form>
+    </section>
+
+    <section id="join" class="secao">
+      <h2>Join MRIC</h2>
+      <p>Join the movement. Become an agent of transformation.</p>
+      
+      <form action="https://formsubmit.co/enio.brito@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New MRIC membership">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://eniobritopoeta.github.io/mric.github.io">
+
+        <label>Full name</label>
+        <input type="text" name="nome" placeholder="Your name" required>
+
+        <label>Email</label>
+        <input type="email" name="email" placeholder="your@email.com" required>
+
+        <label>WhatsApp</label>
+        <input type="text" name="whatsapp" placeholder="+55 62 98240-5324" required>
+
+        <label>City / State</label>
+        <input type="text" name="cidade" placeholder="Goiânia - GO" required>
+
+        <label>How would you like to act?</label>
+        <div style="background:#f1f1f1; padding:10px; border-radius:8px;">
+          <label><input type="checkbox" name="interesse[]" value="Art and Culture"> Art and Culture</label><br>
+          <label><input type="checkbox" name="interesse[]" value="Popular Education"> Popular Education</label><br>
+          <label><input type="checkbox" name="interesse[]" value="Community Garden"> Community Garden</label><br>
+          <label><input type="checkbox" name="interesse[]" value="Political Formation"> Political Formation</label><br>
+          <label><input type="checkbox" name="interesse[]" value="Volunteering"> Volunteering</label><br>
+          <label><input type="checkbox" name="interesse[]" value="Donations"> Donations and Support</label>
+        </div>
+
+        <label>Message (optional)</label>
+        <textarea name="mensagem" rows="3" placeholder="Why do you want to join?"></textarea>
+
+        <button type="submit">Send Application</button>
+      </form>
+    </section>
+
+    <section id="contact" class="secao">
+      <h2>Contact and Support</h2>
+      <p><strong>Coordinator:</strong> Enio Brito de Sá</p>
+      <p><strong>Address:</strong> BR 153, Trevo do Palmito, 156 – Vila Bandeirantes, Goiânia – GO</p>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/5562982405324" target="_blank">+55 62 98240-5324</a></p>
+      <p><strong>Email:</strong> <a href="mailto:enio.brito@gmail.com">enio.brito@gmail.com</a></p>
+      <p><strong>Newsletter:</strong> <a href="https://buttondown.com/enio" target="_blank">Subscribe to our updates</a></p>
+      <p><strong>AI Agent:</strong> <a href="https://poe.com/Agente-EnioBrito2026" target="_blank">Talk to the MRIC Agent</a></p>
+      <p>We welcome national and international partnerships. Your support can change lives.</p>
+    </section>
+  </div>
+
+  <footer>
+    © 2025 Movement for the Rescue of Cultural Identity – All rights reserved.<br>
+    Website created with justice, faith, and revolution of love.
+  </footer>
+</body>
+</html> <div style="text-align: center; margin: 1rem 0;">
+  <a href="index.html" style="color: #e63946; font-weight: bold; text-decoration: none;">🌐 Portuguese version</a>
+</div>
